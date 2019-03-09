@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*公共样式*/
+body,content1,div,span,ul,ol,li,p,pre,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,a,fieldset,legend,address,label,textarea,select,input,figure,table,th,td,b,i{margin:0;padding:0;}
+
+fieldset,img{border:0;}
+
+ul,li{list-style:none;}
+
+em,i{font-style:normal;}
+
+table{border-collapse:separate;border-spacing:0;}
+
+a{text-decoration:none;}
+
+input,option{ border:#D1D1D1 1px solid;}
+
+a:focus,input,button,select,textarea{outline:none;}
+a{blr:expression(this.onFocus=this.blur())}
+a{outline: none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-variant:normal;}
+
+input,select,img{vertical-align:middle;}
+
+legend{display:none;}
+
+textarea{resize:none;}
+html{
+	font-family: sans-serif;-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+body{
+	margin: 0;font-size: 14px;line-height: 1.5;color: #333;
+	background-color: #fff;
+}
+a{
+	background: transparent;text-decoration: none;color: #08c;
+}
+a:active,a:hover{
+	outline: 0;
+}
+a:hover{color: #006699;}
+img{
+	border: none;vertical-align: middle;
+	-ms-interpolation-mode: bicubic;
+}
+button,input,optgroup,select,textarea{
+	color: inherit;font: inherit;
+	margin: 0;
+}
+button,select{
+	text-transform: none;
+}
+button,html input[type="button"],input[type="reset"],
+input[type="submit"]{
+	-webkit-appearance: button;
+	cursor: pointer;*overflow: visible;
+}
+button[disabled],html input[disabled]{
+	cursor: default;
+}
+button::-moz-focus-inner,input::-moz-focus-inner{
+	border:0;padding: 0;
+}
+input{
+	line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"]{
+	box-sizing: border-box;padding: 0;*height: 13px;
+	*width: 13px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+	height: auto;
+}
+input[type="search"]{
+	-webkit-appearance: textfield;box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration{
+	-webkit-appearance: none;
+}
+input{
+	margin: 0;padding: 0;
+	border: none;background-color: transparent;outline: none;
+}
+textarea{overflow: auto;resize: vertical;resize: none;}
+table{
+	border-collapse: collapse;border-spacing: none;
+}
+td,th{
+	padding: 0;
+}
+html,button,input,select,textarea{
+	font-family: "微软雅黑","simsun"
+}
+ul,ol,{list-style: none outside none;}
+h1,h2,h3{
+	line-height: 2;font-weight: normal;
+}
+h1{
+	font-size: 21px;
+}
+h2{
+	font-size: 18px;
+}
+h3{
+	font-size: 16px;
+}
+h4{
+	font-size: 14px;
+}
+h5,h6{
+	font-size: 12px;text-transform: uppercase;
+}
+input:-moz-placeholder,textarea:-moz-placeholder{color: #ccc;}
+input::-moz-placeholder,textarea::-moz-placeholder{color: #ccc;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color: #ccc;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color: #ccc;}
+
+.clearfix:before,.clearfix:after{
+	content:"",display:table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	*zoom: 1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+body{
+	/*max-width: 640px;*/
+	margin: auto; background: #ffffff;color: #5a5858;
+}
+header{
+	width: 100%;
+	height: 4.55rem;
+}
+header .logo{
+	width: 100%;
+	height: 2.15rem;
+}
+header .logo img{
+	height:2.15rem ;
+}
+nav{
+	height: 2.4rem;
+	background: #b2710c;
+	position: relative;
+}
+nav .bianx{
+	background:white;
+}
+nav .navzx{
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	top: 1.2rem;
+}
+nav .navycx1{
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	left: 5.4rem;
+}
+nav .navycx2{
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	left: 10.24rem;
+}
+nav ul li{
+	width: 33%;
+	float: left;
+	line-height: 1.2rem;
+	text-align: center;
+	font-size: 0.6rem;
+	font-weight: 500;
+}
+nav ul li a{
+	color: white;
+}
+.banner{
+	height: 7.05rem;
+}
